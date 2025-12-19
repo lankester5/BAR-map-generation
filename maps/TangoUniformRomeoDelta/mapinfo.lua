@@ -35,9 +35,7 @@ return {
     },
 
     -- Optional map features
-    features = {
-      "feature.lua",
-    },
+    features = "feature.lua",
 
     -- Optional game options
     options = {
