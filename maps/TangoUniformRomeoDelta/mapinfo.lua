@@ -13,6 +13,7 @@ return {
 
     -- Metal map reference
     metalMap = "metal_valley_path.png",
+	heightMap = "heightmap_full.png",
 
     -- Start positions (x, z coordinates, y computed from heightmap)
     -- Top-left corner cluster
@@ -35,7 +36,7 @@ return {
 
     -- Optional map features
     features = {
-      -- Can add trees, rocks, wrecks later
+      "feature.lua",
     },
 
     -- Optional game options
